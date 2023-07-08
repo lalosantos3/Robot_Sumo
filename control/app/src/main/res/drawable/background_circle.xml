@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/mask_circle" />
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#3F51B5"
+                android:endColor="#FFFFFFFF"
+                android:angle="270" />
+        </shape>
+    </item>
+</layer-list>

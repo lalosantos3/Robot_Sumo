@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       tools:ignore="MissingConstraints">
+
+       <LinearLayout
+           android:layout_marginTop="40dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <Button
+               android:padding="15dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Activar"
+               android:layout_marginLeft="60dp"
+               android:id="@+id/idBtnOnBT"
+               ></Button>
+           <Button
+               android:padding="15dp"
+               android:layout_marginLeft="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Desactivar"
+               android:id="@+id/idBtnOffBT"
+               ></Button>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:padding="15dp"
+               android:layout_marginLeft="50dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Conectar"
+               android:id="@+id/idBtnConect"
+               ></Button>
+           <Button
+               android:padding="15dp"
+               android:layout_marginLeft="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Disponibles"
+               android:id="@+id/idBtnDispBT"
+               ></Button>
+           <Spinner
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/idSpinDisp"
+               >
+           </Spinner>
+
+
+       </LinearLayout>
+
+       <TextView
+           android:id="@+id/mensajeTextView"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <ImageView
+           android:id="@+id/circleImageView"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:layout_marginTop="100sp"
+           android:layout_marginLeft="100dp"
+           android:src="@drawable/background_circle"
+           android:scaleType="center"
+           android:elevation="8dp"
+           android:padding="16dp"
+           />
+
+   </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
